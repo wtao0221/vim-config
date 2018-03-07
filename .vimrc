@@ -306,9 +306,9 @@ if executable('ag')
 	let g:ackhighlight = 1
 endif
 
-let g:ack_qhandler = "botright copen15"
-let g:ack_autoclose = 1
-let g:ack_use_cword_for_empty_search = 1
+"let g:ack_qhandler = "botright copen15"
+"let g:ack_autoclose = 1
+"let g:ack_use_cword_for_empty_search = 1
 
 cnoreabbrev Ack Ack!
 map <F4> :Ack <CR>
