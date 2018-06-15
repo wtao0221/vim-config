@@ -270,6 +270,8 @@ set tags+=./tags
 au BufReadPost * if line("'\"") > 0|if line("'\"") <= line("$")|exe("norm '\"")|else|exe "norm $"|endif|endif
 
 map <C-n> :tabn<CR>
+map <C-p> :tabp<CR>
+
 
 """"""""""""""""""""""""""""
 "NERDTree
@@ -312,3 +314,12 @@ endif
 
 cnoreabbrev Ack Ack!
 map <F4> :Ack <CR>
+
+
+let mapleader = "\<Space>"
+
+nnoremap <Leader>t <C-t>
+nnoremap <Leader>o <C-o>
+nnoremap <Leader>] <C-]>
+nnoremap <Leader>b <S-$>
+nnoremap <Leader>f <S-^>

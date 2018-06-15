@@ -1,4 +1,6 @@
 # vim-config
 vim config
 
-apt-get install silversearcher-ag
+sudo apt-get install -y silversearcher-ag ctags
+
+brew install the_silver_searcher
