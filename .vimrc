@@ -298,8 +298,8 @@ let OmniCpp_ShowPrototypeInAbbr=1		"打开显示函数原型
 let OmniCpp_SelectFirstItem = 2			"自动弹出时自动跳至第一个
 
 " mapping
-inoremap <expr> <S-J> pumvisible()?"<C-P>":"<S-J>"
-inoremap <expr> <S-K> pumvisible()?"<C-N>":"<S-K>"
+inoremap <expr> <S-J> pumvisible()?"<C-N>":"<S-J>"
+inoremap <expr> <S-K> pumvisible()?"<C-P>":"<S-K>"
 
 
 " ack-related
