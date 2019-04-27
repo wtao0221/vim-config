@@ -323,3 +323,6 @@ nnoremap <Leader>o <C-o>
 nnoremap <Leader>] <C-]>
 nnoremap <Leader>b <S-$>
 nnoremap <Leader>f <S-^>
+
+"""""""""""""""""python prediction
+let g:pydiction_location = '~/.vim/after/ftplugin/complete-dict'
