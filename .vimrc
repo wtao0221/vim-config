@@ -244,6 +244,8 @@ set smartindent
 
 au BufRead,BufNewFile *  setfiletype txt
 
+au BufRead,BufNewFile *.p4      set filetype=p4
+
 filetype plugin indent on 
 
 "打开文件类型检测, 加了这句才可以用智能补全
