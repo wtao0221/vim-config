@@ -1,3 +1,10 @@
+"""""""""""""""""""""""""
+" pathogen
+"""""""""""""""""""""""""
+execute pathogen#infect()
+
+
+
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 " 显示相关  
@@ -316,6 +323,12 @@ endif
 
 cnoreabbrev Ack Ack!
 map <F4> :Ack <CR>
+
+"gocode
+imap <C-f> <C-x><C-o>
+
+"tagbar
+nmap <F9> :TagbarToggle<CR>
 
 
 let mapleader = "\<Space>"
