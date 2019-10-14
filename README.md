@@ -15,3 +15,11 @@ go get github.com/nsf/gocode
 go build
 go install
 ```
+
+### Miscs
+update vim to 7.4.2 higher
+```
+sudo add-apt-repository ppa:jonathonf/vim
+sudo apt-get update
+sduo apt-get install vim
+```
