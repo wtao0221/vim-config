@@ -265,8 +265,8 @@ filetype plugin indent on
 """""""""""""""""""""""""""""
 " Ctags related
 """""""""""""""""""""""""""""
-map <F5> :!ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .<CR><CR> :TlistUpdate<CR>
-imap <F5> <ESC>:!ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .<CR><CR> :TlistUpdate<CR>
+map <F5> :!ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .<CR><CR>
+imap <F5> <ESC>:!ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .<CR><CR>
 
 set tags=tags " set tags to the newly generated tags
 set tags+=./tags
@@ -341,3 +341,9 @@ nnoremap <Leader>f <S-^>
 
 """""""""""""""""python prediction
 let g:pydiction_location = '~/.vim/after/ftplugin/complete-dict'
+
+""""""
+autocmd FileType go nnoremap <buffer> gd :call GodefUnderCursor()<cr>
+autocmd FileType go nnoremap <buffer> <C-g> :call GodefUnderCursor()<cr>
+let g:godef_split=3    "左右打开新窗口的时候
+let g:godef_same_file_in_same_window=1    "函数在同一个文件中时不需要打开新窗口
