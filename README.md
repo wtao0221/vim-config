@@ -1,7 +1,7 @@
 # vim-config
 vim config
 
-sudo apt-get install -y silversearcher-ag ctags
+sudo apt-get install -y silversearcher-ag ctags software-properties-common
 
 brew install the_silver_searcher
 
