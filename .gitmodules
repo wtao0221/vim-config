@@ -10,3 +10,9 @@
 [submodule ".vim/bundle/vim-godef"]
 	path = .vim/bundle/vim-godef
 	url = https://github.com/dgryski/vim-godef
+[submodule ".vim/bundle/Vundle.vim"]
+	path = .vim/bundle/Vundle.vim
+	url = https://github.com/VundleVim/Vundle.vim.git
+[submodule ".vim/bundle/YouCompleteMe"]
+	path = .vim/bundle/YouCompleteMe
+	url = https://github.com/ycm-core/YouCompleteMe.git
