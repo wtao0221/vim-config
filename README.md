@@ -1,7 +1,7 @@
 # vim-config
 vim config
 ```
-sudo apt-get install -y silversearcher-ag ctags software-properties-common
+sudo apt-get install -y silversearcher-ag ctags software-properties-common npm
 ```
 
 ```
@@ -19,6 +19,17 @@ get the gocode
 go get github.com/nsf/gocode
 go build
 go install
+```
+
+### YCM thing
+```
+cd ~/.vim/bundle
+git clone https://github.com/ycm-core/YouCompleteMe.git
+git clone https://github.com/VundleVim/Vundle.vim.git
+cd YouCompleteMe
+git submodule update --init --recursive
+./install.py --all
+vim +PluginInstall +qall
 ```
 
 ### Miscs
