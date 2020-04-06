@@ -24,10 +24,9 @@ go install
 ### YCM thing
 ```
 cd ~/.vim/bundle
-git clone https://github.com/ycm-core/YouCompleteMe.git
+git clone https://github.com/ycm-core/YouCompleteMe.git --recursive
 git clone https://github.com/VundleVim/Vundle.vim.git
 cd YouCompleteMe
-git submodule update --init --recursive
 ./install.py --all
 vim +PluginInstall +qall
 ```
