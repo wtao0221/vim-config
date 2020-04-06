@@ -36,6 +36,7 @@ vim +PluginInstall +qall
 update vim to 8.1 higher
 ```
 sudo add-apt-repository ppa:jonathonf/vim
+sudo add-apt-repository ppa:deadsnakes/ppa // python 3.7
 sudo apt-get update
 sduo apt-get install vim
 ```
