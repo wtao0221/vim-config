@@ -2,9 +2,9 @@
 " 有 tmux 何没有的功能键超时（毫秒）
 "----------------------------------------------------------------------
 if $TMUX != ''
-	set ttimeoutlen=30
+	set ttimeoutlen=5
 elseif &ttimeoutlen > 80 || &ttimeoutlen <= 0
-	set ttimeoutlen=80
+	set ttimeoutlen=5
 endif
 
 
