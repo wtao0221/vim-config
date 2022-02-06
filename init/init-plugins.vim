@@ -230,6 +230,7 @@ if index(g:bundle_group, 'nerdtree') >= 0
 	noremap <space>no :NERDTreeFocus<cr>
 	noremap <space>nm :NERDTreeMirror<cr>
 	noremap <c-f> :NERDTreeToggle<cr>
+	noremap <c-n> :NERDTreeFind<cr>
 endif
 
 
