@@ -2,6 +2,8 @@
 ```
 On Ubuntu
 sudo apt-get install -y silversearcher-ag ctags software-properties-common npm
+
+curl -sL install-node.vercel.app/lts | bash
 ```
 
 ```

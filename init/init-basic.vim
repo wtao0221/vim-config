@@ -35,6 +35,8 @@ set noesckeys
 
 " 显示光标位置
 set ruler
+set cursorline
+"set cursorcolumn
 
 
 "----------------------------------------------------------------------
@@ -146,7 +148,7 @@ endif
 "----------------------------------------------------------------------
 set suffixes=.bak,~,.o,.h,.info,.swp,.obj,.pyc,.pyo,.egg-info,.class
 
-set wildignore=*.o,*.obj,*~,*.exe,*.a,*.pdb,*.lib "stuff to ignore when tab completing
+set wildignore=*.o,*.obj,*~,*.exe,*.a,*.pdb,*.lib " stuff to ignore when tab completing
 set wildignore+=*.so,*.dll,*.swp,*.egg,*.jar,*.class,*.pyc,*.pyo,*.bin,*.dex
 set wildignore+=*.zip,*.7z,*.rar,*.gz,*.tar,*.gzip,*.bz2,*.tgz,*.xz    " MacOSX/Linux
 set wildignore+=*DS_Store*,*.ipch
