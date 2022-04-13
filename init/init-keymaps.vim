@@ -170,3 +170,6 @@ map <F4> :Ack <CR>
 nnoremap <Leader>t <C-t>
 nnoremap <Leader>o <C-o>
 nnoremap <Leader>] <C-]>
+
+"
+nmap <leader>rn <Plug>(coc-rename)

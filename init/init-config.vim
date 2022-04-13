@@ -166,6 +166,7 @@ augroup InitFileTypesGroup
 	au BufNewFile,BufRead *.es setlocal filetype=erlang
 	au BufNewFile,BufRead *.asc setlocal filetype=asciidoc
 	au BufNewFile,BufRead *.vl setlocal filetype=verilog
+	au BufNewFile,BufRead *.sbt,*.sc set filetype=scala
 
 augroup END
 

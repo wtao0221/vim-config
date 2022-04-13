@@ -172,3 +172,6 @@ set mouse=a
 set selection=exclusive
 
 set selectmode=mouse,key
+
+"
+autocmd FileType json syntax match Comment +\/\/.\+$+
