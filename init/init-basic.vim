@@ -36,7 +36,7 @@ set noesckeys
 " 显示光标位置
 set ruler
 set cursorline
-set cursorcolumn
+" set cursorcolumn
 
 
 "----------------------------------------------------------------------
