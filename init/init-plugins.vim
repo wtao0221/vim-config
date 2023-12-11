@@ -328,8 +328,8 @@ if index(g:bundle_group, 'echodoc') >= 0
 endif
 
 " coc-metals
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
-Plug 'scalameta/coc-metals', {'do': 'yarn install --frozen-lockfile'}
+" Plug 'neoclide/coc.nvim', {'branch': 'release'}
+" Plug 'scalameta/coc-metals', {'do': 'yarn install --frozen-lockfile'}
 
 "----------------------------------------------------------------------
 " 结束插件安装
@@ -417,6 +417,7 @@ let g:ycm_filetype_whitelist = {
 			\ "sh":1,
 			\ "zsh":1,
 			\ "bash":1,
+			\ "tcl":1,
 			\ "man":1,
 			\ "markdown":1,
 			\ "matlab":1,

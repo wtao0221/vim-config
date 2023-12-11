@@ -50,4 +50,4 @@ LoadScript init/init-style.vim
 LoadScript init/init-keymaps.vim
 
 
-LoadScript init/coc-conf.vim
+" LoadScript init/coc-conf.vim
